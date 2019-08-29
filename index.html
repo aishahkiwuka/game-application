@@ -1,161 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Game App</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <!-- Compiled and minified CSS -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    /> -->
 
-</head>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-<body>
-    <h1>hello aishah</h1>
-    <div class="row">
-        <!--first game-->
-        <div class="col-4">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="img/g2.jpeg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <!-- Image and text -->
+    <nav class="navbar navbar-light bg-light" id="nav">
+      <a class="navbar-brand" href="#">
+        <img
+          src="img/image 2.jpeg"
+          width="30"
+          height="30"
+          class="d-inline-block align-top img-rounded"
+          alt=""
+        />
+        game-app
+      </a>
+    </nav>
+    <br>
+
+    <div class="container">
+      <form action="">
+        <div class="wrap">
+          <div class="search">
+             <input type="text" class="searchTerm" placeholder="Search (by name)">
+             <button type="submit" class="searchButton">
+               <i class="fa fa-search"></i>
+            </button>
+          </div>
+       </div>
+        
+      </form>
+      <br><br>
+
+      <!-- first row -->
+      <div class="row">
+        <div class="card border-dark mb-3 cards">
+          <div class="card-body text-success">
+            <img src="img/image.jpeg" width="30%" />
+            <h5 class="card-title float-right">LittleBigPlanet  <i class="fa fa-star star"></i><br>   <p
+              class="card-text  para">playstation vita</p></h5>
+          
+          </div>
+          <div class="card-footer bg-transparent border-dark">
+            <p>Genre:puzzle <span class="float-right">9.0</span></p>
+          </div>
         </div>
-        <!--end of first game-->
-        <div class="col-4">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="img/g2.jpeg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-        <!--end of second gm-->
-        <div class="col-4">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="img/g3.jpeg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-        <!--end of third gm-->
-        <div class="col-4">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="img/ww.jpeg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-        <!--end of fourth gm-->
-        <div class="col-4">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="img/g5.jpeg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-        <!--end of fifth gm-->
 
-        <div class="col-4">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="img/g6.jpeg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
+        <div class="card border-dark mb-3 cards">
+          <div class="card-body text-success">
+            <img src="img/image 2.jpeg" width="30%" />
+            <h5 class="card-title float-right">Splice: Tree of Life <br><p class="card-text  para">Ipad</p></h5>
+            <br />
+       
+          </div>
+          <div class="card-footer bg-transparent border-dark">
+            <p>Genre:puzzle <span class="float-right">8.5</span></p>
+          </div>
         </div>
-        <!--end of sixth gm-->
+      </div>
 
-        <div class="col-4">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="ggg.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h>
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the
-                                card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-        <!--end of seventh gm-->
-        <div class="col-4">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="img/g8.jpeg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h>
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk of the
-                                card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <!--end of eigth gm-->
-            <div class="col-4">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="img/g9.jpeg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the
-                                    card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <!--end of ninth gm-->
-                <div class="col-4">
-                        <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="img/g10.jpeg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the
-                                        bulk of the
-                                        card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--end of tenth gm-->
-            <!-- second row -->
+      <!-- end of first row -->
 
-        <div class="row">
-            <div class="col-4">
-                <p>game 4</p>
-            </div>
-
-            <div class="col-4">
-                <p>game 5</p>
-            </div>
-            <div class="col-4">
-                <p>game 6</p>
-            </div>
-
+      <!-- second row -->
+      <div class="row">
+        <div class="card border-dark mb-3 cards">
+          <div class="card-body text-success">
+            <img src="img/image 2.jpeg" width="30%" />
+            <h5 class="card-title float-right">NHL 13  <br><p class="card-text para">Xbox 360</p></h5>
+           
+          </div>
+          <div class="card-footer bg-transparent border-dark">
+            <p>Genre:Sports<span class="float-right">8.5</span></p>
+          </div>
         </div>
-</body>
 
+        <div class="card border-dark mb-3 cards">
+          <div class="card-body text-success">
+            <img src="img/image 2.jpeg" width="30%" />
+            <h5 class="card-title float-right">Total War Battles:Shogun  <i class="fa fa-star star"> </i>    <p class="card-text  para">Macintosh</p></h5>
+         
+          </div>
+          <div class="card-footer bg-transparent border-dark">
+            <p>Genre:strategy <span class="float-right">8.5</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- end of second row -->
+    </div>
+  </body>
 </html>
