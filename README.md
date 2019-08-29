@@ -7,4 +7,4 @@ different platforms conveniently.
 * Filter the games listed by "genre"
 * A feature to search via "name/title"
 
-<p>Preview on <a href="https://justinembawomye.github.io/psuedo-app/index.html" target="_blank">Github pages</a></p>
+<p>Preview on <a href="" target="_blank">Github pages</a></p>
